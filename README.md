@@ -8,26 +8,11 @@ This repository contains the development of an algorithm for trajectory reconstr
 - Compare the performance of various feature detectors (e.g., SIFT, ORB, FAST)
 - Test different feature descriptors for robustness and accuracy
 - Reconstruct the 3D trajectory of the stereo camera based on matched features
-- Evaluate accuracy against ground truth if available
+- Evaluate accuracy against known initial and final position
 
-## Repository Contents
+## Contents
 
 - Scripts for feature detection and description
 - Stereo matching and triangulation modules
 - Pose estimation from stereo correspondences
 - Visualization tools for trajectory plotting
-
-## Requirements
-
-- MATLAB or Python environment (specify which if you want)
-- OpenCV (if Python)
-- ZED SDK (optional, if working with real camera data)
-
-## Usage
-
-Clone the repository and run the main script. Adjust the detector and descriptor parameters to test different combinations.
-
-## License
-
-MIT License
-
